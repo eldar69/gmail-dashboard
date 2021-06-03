@@ -36,7 +36,7 @@ $link-color:#767676;
     
         }
     .container {
-        max-width: 1800px;
+        // max-width: 1800px;
             margin: 0 auto;
         }
          li {
@@ -146,6 +146,7 @@ $link-color:#767676;
     table {
         border-collapse: collapse;
         width: 100%;
+        overflow: auto;
         tr:hover  {
             border: 1px solid #040404; ;
             box-shadow: 2px 2px #767676;
@@ -155,11 +156,13 @@ $link-color:#767676;
             border-bottom: 1px solid #e0e2e3;
             font-weight: bold;
             font-size: 14px;
+            
 
            
             a{
                 text-decoration: none;
                 color: #040404;
+                display: inline-flex;
             }
             
             span {
@@ -171,7 +174,7 @@ $link-color:#767676;
     }
 
     .left-padding {
-            padding-left: 10em;
+            padding-right: 6em;
     }
     hr {
         border-top:1px solid #e0e2e3;
@@ -200,7 +203,8 @@ $link-color:#767676;
     .btm-margin {
         margin-top: auto;
     }
-// .position {
-//     position:fixed;
-// }
+//      .position {
+//      position: fixed;
+//  }
     
+@import "_mediaQuery"

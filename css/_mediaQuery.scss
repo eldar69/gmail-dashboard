@@ -6,8 +6,45 @@
 
 @media (min-width: 512px) {
     .container {
-        max-width: 495px;
-    }
+        max-width: 500px;
+        // margin: 0 88px;
+        
+        font-size: 6px;
+            i {
+                font-size: 14px;
+            }
+             .compose {
+                padding: .05em;
+                width: 90%;
+                span {
+                    font-size: 10px;
+                }
+               i {
+                   font-size: 8px;
+               }
+             }
+        
+        .left-padding {
+            padding-right: .5em;
+        }
+        table {
+            
+            td {
+                font-size: 10px !important;
+                span {
+                    display: none;
+                }
+            }
+        }
+        .logo {
+            margin-top: 1em;
+            img {
+                width: 70px;
+                
+            }
+        }
+        }
+       
     
 }
 
@@ -16,7 +53,30 @@
 
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 760px;
+        font-size: 14px;
+            i {
+                font-size: 14px;
+            }
+             .compose {
+                padding: .1em;
+                width: 80%;
+               i {
+                   font-size: 10px;
+               }
+             }
+        
+        .left-padding {
+            padding-right: 1em;
+        }
+        table {
+            td {
+                font-size: 16px !important;
+                span {
+                    display: none;
+                }
+            }
+        }
     }
    
 }
@@ -26,7 +86,28 @@
 
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 980px;
+        font-size: 15px;
+        i {
+            font-size: 14px;
+        }
+         .compose {
+            padding: .2em;
+            width: 70%;
+           i {
+               font-size: 13px;
+           }
+         }
+    }
+    .padding-left {
+        padding-right: 2em;
+    }
+    table {
+        td {
+            span {
+                display: none;
+            }
+        }
     }
 }
 
@@ -37,24 +118,50 @@
     .container {
         /* max-width: 1170px; */
         max-width: 1140px;
+        font-size: 16px;
+        i {
+            font-size: 14px;
+        }
+        .compose {
+            width: 60%;
+            padding: .2em;
+            i {
+                font-size: 15px;
+            }
+        }
+        .left-padding {
+            padding-right: 3em;
+        }
     }
-    
+    table {
+        td {
+            span {
+                display: none;
+            }
+        }
+    } 
 
 }
 /* Extra large screens, */
 
-@media (min-width: 1522px) {
+@media (min-width: 1622px) {
     .container {
         /* max-width: 1170px; */
         max-width: 1422px;
     }
-    
+    table {
+        td {
+            span {
+                display: block !important;
+            }
+        }
+    }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
     .container {
         /* max-width: 1170px; */
-        max-width: 1800px;
+        max-width: 1780px;
     }
     
 }
