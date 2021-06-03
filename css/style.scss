@@ -76,6 +76,7 @@ $link-color:#767676;
       .grid {
           display: grid;
           grid-template-columns: 0.6fr 4fr 0.2fr;
+          grid-gap: .5em;
       }
 
       .compose {
@@ -116,7 +117,7 @@ $link-color:#767676;
           font-weight: bold;
       }
 
-      .inbox {
+      .dashboard {
           ul {
               display: flex;
               padding-left: 0;
@@ -128,6 +129,14 @@ $link-color:#767676;
                   }
               }
           }
+      }
+
+      .inbox {
+          background-color: #fbe8e6;
+          border-radius: 0 1em 1em 0;
+        a {
+            color: #da3f28 !important;
+        }
       }
 
       .push {

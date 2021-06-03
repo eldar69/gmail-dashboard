@@ -162,6 +162,26 @@
     .container {
         /* max-width: 1170px; */
         max-width: 1780px;
+        i {
+            font-size: 16px;
+        }
+        .compose {
+            border: none;
+            border-radius: 20px;
+            box-shadow:1px 1px 1px #767676;
+            padding: .5em;
+            width: 50%;
+  
+             i {
+                 font-size: 30px;
+                 color:#da3f28;
+                 margin-right: 5px;
+         }
+            span {
+                font-size: 14px;
+            }
+        }
+        
     }
     
 }
