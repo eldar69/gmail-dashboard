@@ -4,6 +4,47 @@
     margin: 0 auto;
 }
 
+@media (min-width: 316px) {
+    .container {
+        max-width: 310px;
+        font-size: 6px;
+        i {
+            font-size: 1px;
+        }
+         .compose {
+            padding: .05em;
+            width: 90%;
+            span {
+                font-size: 10px;
+            }
+           i {
+               font-size: 8px;
+           }
+         }
+    
+    .left-padding {
+        padding-right: .5em;
+    }
+    table {
+        
+        td {
+            font-size: 10px !important;
+            span {
+                display: none;
+            }
+        }
+    }
+    .logo {
+        margin-top: 1em;
+        img {
+            width: 70px;
+            
+        }
+    }
+    
+    }
+}
+
 @media (min-width: 512px) {
     .container {
         max-width: 500px;

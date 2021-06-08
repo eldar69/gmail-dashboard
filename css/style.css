@@ -167,6 +167,29 @@ hr {
 .container {
   margin: 0 auto; }
 
+@media (min-width: 316px) {
+  .container {
+    max-width: 310px;
+    font-size: 6px; }
+    .container i {
+      font-size: 1px; }
+    .container .compose {
+      padding: .05em;
+      width: 90%; }
+      .container .compose span {
+        font-size: 10px; }
+      .container .compose i {
+        font-size: 8px; }
+    .container .left-padding {
+      padding-right: .5em; }
+    .container table td {
+      font-size: 10px !important; }
+      .container table td span {
+        display: none; }
+    .container .logo {
+      margin-top: 1em; }
+      .container .logo img {
+        width: 70px; } }
 @media (min-width: 512px) {
   .container {
     max-width: 500px;
