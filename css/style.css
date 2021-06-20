@@ -163,6 +163,11 @@ hr {
 .btm-margin {
   margin-top: auto; }
 
+.post {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
 /* mobile */
 .container {
   margin: 0 auto; }

@@ -212,8 +212,10 @@ $link-color:#767676;
     .btm-margin {
         margin-top: auto;
     }
-//      .position {
-//      position: fixed;
-//  }
+     .post {
+     height: 80vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
     
 @import "_mediaQuery"
